@@ -1,0 +1,36 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "search music with spotify",
+  "main": "index.js",
+  "repository": "https://github.com/Davidcreador/music-player.git",
+  "author": "David <david@interaction.cr>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-polyfill": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-rewire": "^1.0.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.10.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack2": "^0.0.6",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  }
+}

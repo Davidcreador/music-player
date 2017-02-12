@@ -1,0 +1,21 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+}
+.search-form {
+  input {
+    display: inline-block;
+    padding: 1em;
+    border: 2px solid #e0e7ed;
+    box-shadow: 0 0 40px rgba(54,67,77,.2);
+  }
+  input[type=text] {
+    width: 300px;
+    border-right: none;
+  }
+  input[type=submit] {
+    border-left: none;
+    width: 150px;
+  }
+}
